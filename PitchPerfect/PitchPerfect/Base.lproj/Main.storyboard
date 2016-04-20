@@ -102,7 +102,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="CWV-MG-fj7">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="CWV-MG-fj7">
                                         <rect key="frame" x="0.0" y="268" width="560" height="134"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9A6-Az-gHZ" userLabel="EchoButton">
@@ -115,7 +115,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fCW-J6-dot">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fCW-J6-dot">
                                         <rect key="frame" x="0.0" y="402" width="560" height="134"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhs-zK-2bb" userLabel="StopButton">
@@ -135,6 +135,15 @@
                             <constraint firstItem="ZBv-xp-W2Y" firstAttribute="leading" secondItem="LSR-mi-HhN" secondAttribute="leadingMargin" id="zd4-7P-LoD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="chipmunkButton" destination="gNY-Nt-0RV" id="ZdO-Oc-Yhc"/>
+                        <outlet property="echoButton" destination="9A6-Az-gHZ" id="9ot-x0-gUJ"/>
+                        <outlet property="rabbitButton" destination="iQn-1H-H03" id="3sN-KG-LWQ"/>
+                        <outlet property="reverbButton" destination="wZK-WE-D3K" id="MdF-rs-bCC"/>
+                        <outlet property="snailButton" destination="feI-Tw-yAY" id="1B0-gQ-w4E"/>
+                        <outlet property="stopButton" destination="uhs-zK-2bb" id="azV-aT-r6E"/>
+                        <outlet property="vadarButton" destination="rP2-KG-hXu" id="riN-cG-RVm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kWa-rw-DAG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
